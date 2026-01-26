@@ -25,7 +25,7 @@ This methodology ensures that security presence is logged while sensitive biomet
 ## Installation and Deployment
 
 ### 1. Repository Initialization
-```bash
+''bash
 git clone [https://github.com/chetx27/smart-doorbell.git](https://github.com/chetx27/smart-doorbell.git)
 cd smart-doorbell
 
@@ -60,10 +60,12 @@ $$G(x, y) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2 + y^2}{2\sigma^2}}$$
 
 This methodology ensures that security presence is logged while sensitive biometric identity data remains obfuscated.
 
+
+
 ## Installation and Deployment
 
 ### 1. Repository Initialization
-```bash
+``bash
 git clone [https://github.com/chetx27/smart-doorbell.git](https://github.com/chetx27/smart-doorbell.git)
 cd smart-doorbell
 
