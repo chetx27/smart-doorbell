@@ -59,30 +59,3 @@ The system captures video frames and extracts facial coordinates. To ensure iden
 $$G(x, y) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2 + y^2}{2\sigma^2}}$$
 
 This methodology ensures that security presence is logged while sensitive biometric identity data remains obfuscated.
-
-
-
-## Installation and Deployment
-
-### 1. Repository Initialization
-``bash
-git clone [https://github.com/chetx27/smart-doorbell.git](https://github.com/chetx27/smart-doorbell.git)
-cd smart-doorbell
-
-2. Dependency Installation
-Bash
-pip install opencv-python cvzone mediapipe
-
-3. Execution
-Bash
-python main.py
-System Configuration
-
-The following parameters can be adjusted within main.py to tune system sensitivity:
-
-minDetectionCon: Minimum confidence threshold for the detection model (Default: 0.6).
-
-alert_limit: Temporal threshold in seconds before a loitering alert is triggered (Default: 5s).
-
-License
-Distributed under the MIT License. See the LICENSE file for further details.
