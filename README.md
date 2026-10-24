@@ -1,6 +1,6 @@
 # Privacy-Preserving AI Doorbell (PPAD)
 
-## Overview
+# Overview
 The Privacy-Preserving AI Doorbell (PPAD) is an edge-computing surveillance solution designed to prioritize individual privacy while maintaining residential security. The system utilizes real-time Computer Vision (CV) to detect human presence and automatically anonymizes facial data through localized spatial filtering.
 
 # Key Features
