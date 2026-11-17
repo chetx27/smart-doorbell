@@ -57,9 +57,4 @@ The Privacy-Preserving AI Doorbell (PPAD) is an edge-computing surveillance solu
 * **ML Framework:** MediaPipe (BlazeFace model)
 * **Logic Framework:** CVZone for streamlined object tracking and ROI manipulation
 
-## Mathematical Implementation
-The system captures video frames and extracts facial coordinates. To ensure identity protection, a kernel-based Gaussian blur is applied to the extracted ROI using the following distribution:
-
-$$G(x, y) = \frac{1}{2\pi\sigma^2}e^{-\frac{x^2 + y^2}{2\sigma^2}}$$
-
 This methodology ensures that security presence is logged while sensitive biometric identity data remains obfuscated.
