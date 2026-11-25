@@ -5,8 +5,11 @@ The Privacy Preserving AI Doorbell (PPAD) is an edge-computing surveillance solu
 
 # Key Features
 * **Dynamic Face Anonymization:** Real-time application of Gaussian blurring to facial Regions of Interest (ROI) to ensure compliance with privacy standards such as GDPR and CCPA.
+  
 * **Spatio-Temporal Tracking:** Implements dwell-time monitoring to differentiate between transient passersby and potential loitering incidents.
+  
 * **Visual Telemetry:** Integrated on-screen display (OSD) provides real-time tracking timers and security status indicators.
+  
 * **Edge Optimization:** Designed for high-performance execution on standard CPU hardware using the MediaPipe and CVZone backends.
 
 # Technical Stack
